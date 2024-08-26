@@ -1,3 +1,4 @@
+# AND OR NOT 
 a = True
 b = False
 c = False
@@ -10,7 +11,7 @@ c = False
 # print("For Not")
 # print(not(a))
 
-# print(not(a or b))
+print(not(a or b))
 
 print(a or b and c)
 # print(a or b or a and c or b)
