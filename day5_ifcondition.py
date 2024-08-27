@@ -32,7 +32,7 @@ if (condition):
 marks = int(input("Enter marks: "))
 
 if (marks >90):
-    print(f"{marks} is A+")
+    print(f"{marks} is A+")   # Python relies on identation(white space at the beginning of line)to define scope of code. Other programming languages often use curly-brackets for this purpose.
 elif (marks < 90 and marks >= 80):
     print(f"{marks} is A")
 elif (marks < 80 and marks >= 70):
