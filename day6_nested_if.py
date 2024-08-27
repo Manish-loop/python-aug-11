@@ -1,4 +1,4 @@
-# percentage = float("Enter percentage: ")
+# percentage = float(input("Enter percentage: "))
 
 # if(percentage >= 40):
 #     print("User is pass")
@@ -43,8 +43,9 @@ else:
  
 
 #  Single line if 
-
 gender = "M"
 
-a = "Male" if gender == "M" else "Female"
+a = "Male" if gender == "M" else "female"
 print(a)
+
+
