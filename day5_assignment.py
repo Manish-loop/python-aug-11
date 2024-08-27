@@ -7,7 +7,12 @@
 # print(type(total))
 # percentages = total/4
 
-percentages = int(input("Enter percentage: "))
+# _percentages= float(input("Enter percentage: "))  // It is best to use underscore(_) while defining variables
+# if(_percentages >= 80 and _percentages <= 100):
+# print(f"{_percentages} is distinction.")
+
+
+percentages = float(input("Enter percentage: "))
 
 if(percentages >= 80 and percentages <= 100):
     print(f"{percentages} is distinction.")
