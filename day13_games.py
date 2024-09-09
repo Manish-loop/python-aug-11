@@ -47,15 +47,21 @@
 import random
 
 score = 100
-
+num = random.randint(1, 10)  # Generate a random number 0 or 1
+count = 0
 while True:  # Infinite loop
-    num = random.randint(0, 1)  # Generate a random number 0 or 1
-    print(num)
-
-    if num % 2 == 0:
+    
+    count += 1
+    user_num = int(input("Guess number: "))
+    if num == user_num:
         print("hit")
         score += 10
-        print(f"Score is {score}")
+        print(f"Score is {score} in {count} attempts")
+        if score >=200:
+            print(f"Congratulations you are winner with {score} score in {count} attempts.")
+        break
+    if count >8:
+        print("Exit")
         break
        
     else:
@@ -65,6 +71,7 @@ while True:  # Infinite loop
     if score < 100:
             print("Exit")
             break  # Exit the loop
+print(num)
 
    
 

@@ -27,12 +27,12 @@
 # test = [1,2,3, ["anish", "prajapati"]]
 # print(test[-1][1]) # this 
 
-# # or this solution
-# # value = test[3]
-# # print(type(value))
-# # print(value[-1])
+# or this solution
+# value = test[3]
+# print(type(value))
+# print(value[-1])
 
-# # print(test[::])
+# print(test[::])
 
 
 # # apppend = values added at the end of list

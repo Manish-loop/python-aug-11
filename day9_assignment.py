@@ -20,8 +20,7 @@
 #  print(i)
 
 # Initialize an empty dictionary
-test = {}
-
+test = []
 
 test["name"] = input("Enter your name:")
 test["age"] = int(input("Enter your age:"))
