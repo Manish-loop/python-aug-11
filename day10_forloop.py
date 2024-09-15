@@ -22,11 +22,11 @@
 #   print(i)
 #   print(a[i])
 
-# #  Assignment: Using for loop   Multiplication table f-string is required
-# n= int(input("Enter a number:"))
-# m = int(input("Enter number range:"))
-# for i in range(1,m):
-#     print(f" {n} X {i} = {n*i}")
+#  Assignment: Using for loop   Multiplication table f-string is required
+n= int(input("Enter a number:"))
+m = int(input("Enter number range:"))
+for i in range(1,m):
+    print(f" {n} X {i} = {n*i}")
 
 # # 2 X 1 = 2
 # # 2 X 2 = 4
