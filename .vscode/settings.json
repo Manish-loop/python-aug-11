@@ -3,5 +3,8 @@
     "wolf.disableHotModeWarning": true,
     "cSpell.words": [
         "setrecursionlimit"
+    ],
+    "python.analysis.extraPaths": [
+        "./import_"
     ]
 }

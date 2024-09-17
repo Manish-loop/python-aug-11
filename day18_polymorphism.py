@@ -1,3 +1,5 @@
+# Polymorphism - same name with different work
+
 class Vehicle:
     def __init__(self, brand, model):
         self.brand = brand
